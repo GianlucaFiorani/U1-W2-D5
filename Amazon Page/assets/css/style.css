@@ -1,0 +1,138 @@
+/* Your styles here */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+h1 {
+  font-size: large;
+  font-weight: bold;
+  padding: 0.8rem 0 1rem;
+}
+h2 {
+  color: black;
+}
+a {
+  color: #288199;
+  font-size: x-small;
+  font-weight: 800;
+  padding: 10px;
+  text-decoration: none;
+}
+/* HEADER */
+header {
+  background-color: #21303e;
+  padding-top: 0.5rem;
+}
+header img {
+  margin-left: 1rem;
+}
+header div {
+  background-color: #364858;
+  padding: 0.4rem;
+  font-size: x-small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header a {
+  color: #ebedeed0;
+}
+/* MAIN */
+main {
+  background-color: #eaedee;
+  padding: 1rem;
+  text-align: center;
+  color: #ebedee;
+}
+#orangeBanner {
+  background-color: #f56500;
+  padding: 0.3rem;
+  font-size: x-small;
+}
+
+#bigBanner {
+  background-color: #2f6d5f;
+  background-image: url(../images/bg-image.png);
+  background-size: contain;
+  background-position-x: center;
+  padding: 1.8rem;
+  margin-top: 1rem;
+}
+
+section {
+  text-align: left;
+  padding: 1rem 0 0 1rem;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin-top: 1rem;
+}
+article {
+  width: 25%;
+  display: inline-block;
+  margin-right: -4px;
+  box-sizing: border-box;
+  vertical-align: top;
+  padding: 10px 20px 10px 0;
+  height: 250px;
+}
+#box1 {
+  background-color: #21303e;
+  background-image: url(../images/img_1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 10%;
+  box-shadow: 5px 5px #6e6e6e10;
+}
+#box2 {
+  background-color: #21303e;
+  background-image: url(../images/img_2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 10%;
+  box-shadow: 5px blurred #364858;
+}
+#box3 {
+  background-color: #21303e;
+  background-image: url(../images/img_3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 10%;
+  box-shadow: 5px 5px #364858;
+}
+#box4 {
+  background-color: #21303e;
+  background-image: url(../images/img_4.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 10%;
+  box-shadow: 5px 5px #364858;
+}
+main img {
+  width: 100%;
+  margin-top: 1rem;
+}
+/* FOOTER */
+
+footer {
+  background-color: #21303e;
+  text-align: center;
+  padding-bottom: 50px;
+}
+footer div {
+  background-color: #364858;
+  color: #ebedee;
+  margin-bottom: 2.5rem;
+  padding: 0.3rem 0.6rem 0.6rem;
+}
+footer div a {
+  color: #ebedee;
+  text-decoration: underline;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
