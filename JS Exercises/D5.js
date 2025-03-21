@@ -55,14 +55,21 @@ const cars = [
     trims: ["life", "style", "r-line"],
   },
 ];
+// Ho aggiunto questa funzione per inserire lettere casuali nella targa
+function randLett() {
+  const lett = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+  let casualNum = Math.floor(Math.random() * 26);
+  let randomLetter = lett[casualNum];
+  return randomLetter;
+}
 
 for (let i = 0; i < cars.length; i++) {
   let casualPlate = "";
-  for (let j = 0; j < 4; j++) {
+  for (let j = 0; j < 3; j++) {
     let casualNum = Math.floor(Math.random() * 10);
     casualPlate += casualNum.toString();
   }
-  cars[i].licensePlate = casualPlate;
+  cars[i].licensePlate = randLett() + randLett() + casualPlate.toString() + randLett() + randLett();
 }
 
 /* ESERCIZIO 6
@@ -71,9 +78,9 @@ for (let i = 0; i < cars.length; i++) {
 */
 let carObj = {
   brand: "Nissan",
-  model: "Polo",
+  model: "350z",
   color: "white",
-  trims: ["life", "style", "r-line"],
+  trims: ["track", "touring", "coupe"],
 };
 cars.push(carObj);
 for (let i = 0; i < cars.length; i++) {
